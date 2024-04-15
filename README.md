@@ -85,7 +85,6 @@ let mut j: u32 = 10
 j = j + 10
 ```
 
-
 </td>
 <td>
     
@@ -120,7 +119,9 @@ let even = fn (i: i32): i32 {
 <td>
     
 ```cpp
-auto even = [](int32_t i) { return 0 == i % 2; };
+auto even = [](int32_t i) {
+  return 0 == i % 2;
+};
 ```
 
 </td>
@@ -193,7 +194,7 @@ int32_t func(int32_t t) {
 namespace A::B
 
 fn func(t: i32): i32 {
-  return t;
+  return t
 }
 ```
 
