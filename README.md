@@ -322,6 +322,28 @@ if (i < 10) {
 </td>  
 </tr>
 <tr>
+<td> Matching </td>
+<td>
+  
+```cpp
+match i {
+  0 => { ... }
+  1 => { ... }
+} else {
+
+}
+```
+
+</td>
+<td>
+switch or if/else statement
+</td>
+<td>
+
+- [ ] WIP
+</td>  
+</tr>
+<tr>
 <td> Async </td>
 <td>
 
